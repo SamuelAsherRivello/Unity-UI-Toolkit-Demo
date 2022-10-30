@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Art/UI/StyleSheets/TopSS.uss?fileID=7433441132597879392&amp;guid=2166a5d2df4eaae409a62f020b604941&amp;type=3#BaseSceneSS" />
+    <ui:VisualElement name="GameMenuVisualElement" style="align-items: center; justify-content: center; flex-grow: 1;">
+        <ui:Button text="Play Game" display-tooltip-when-elided="true" name="PlayGameButton" class="button" />
+    </ui:VisualElement>
+</ui:UXML>

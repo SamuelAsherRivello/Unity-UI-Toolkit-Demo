@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="CornerVisualElement" src="project://database/Assets/Art/UI/VisualElements/CornerVE.uxml?fileID=9197481963319205126&amp;guid=43d7065a8f581b9489a9fa7da9ed9476&amp;type=3#CornerVE" />
+    <Style src="project://database/Assets/Art/UI/StyleSheets/BaseSceneSS.uss?fileID=7433441132597879392&amp;guid=2166a5d2df4eaae409a62f020b604941&amp;type=3#BaseSceneSS" />
+    <ui:VisualElement name="Contents" style="flex-grow: 1; flex-direction: row; margin-left: 20px; margin-right: 20px; margin-top: 20px; margin-bottom: 20px;">
+        <ui:VisualElement name="Left" style="width: 50%;">
+            <ui:Instance template="CornerVisualElement" name="CornerVisualElement" style="align-items: flex-start;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Right" style="width: 50%; flex-direction: row; align-items: flex-start; justify-content: flex-end;">
+            <ui:Instance template="CornerVisualElement" name="CornerVisualElement" style="align-items: flex-end;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

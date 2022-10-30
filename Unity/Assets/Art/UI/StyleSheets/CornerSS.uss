@@ -1,0 +1,20 @@
+.Contents {
+    width: 200px;
+    height: 100px;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 255);
+    background-image: url('project://database/Assets/Documentation/Images/ProjectIcon.png?fileID=2800000&guid=7c0822b0780ca4a74b276e50db2c68a3&type=3#ProjectIcon');
+    max-width: 200px;
+    max-height: 100px;
+    min-width: 200px;
+    min-height: 100px;
+    flex-grow: 1;
+}
+
+.title {
+    font-size: 20px;
+    -unity-font: url('project://database/Assets/Art/Fonts/Bungee-Regular.ttf?fileID=12800000&guid=b8a509d3b3ce60847bbafb5a38462ecf&type=3#Bungee-Regular');
+}
+
+.label {
+    -unity-font: url('project://database/Assets/Art/Fonts/Bungee-Regular.ttf?fileID=12800000&guid=b8a509d3b3ce60847bbafb5a38462ecf&type=3#Bungee-Regular');
+}

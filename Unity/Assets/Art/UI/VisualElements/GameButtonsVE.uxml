@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Art/UI/StyleSheets/MainMenu.uss?fileID=7433441132597879392&amp;guid=2166a5d2df4eaae409a62f020b604941&amp;type=3#MainMenu" />
+    <ui:VisualElement name="GameMenuVisualElement">
+        <ui:Button text="Back" display-tooltip-when-elided="true" name="BackButton" class="button" />
+    </ui:VisualElement>
+</ui:UXML>
