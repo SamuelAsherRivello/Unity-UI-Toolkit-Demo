@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="MyCustomVisualElementTemplate" src="project://database/Assets/UI%20Toolkit/Runtime/MyCustomVisualElement/MyCustomVisualElementTemplate.uxml?fileID=9197481963319205126&amp;guid=653c010594824f8499ba59b1a4578186&amp;type=3#MyCustomVisualElementTemplate" />
+    <Style src="project://database/Assets/UI%20Toolkit/Runtime/MyCustomVisualElement/MyCustomVisualElement.uss?fileID=7433441132597879392&amp;guid=a0568187c44ea5644aeb07d00ed65a5c&amp;type=3#MyCustomVisualElement" />
+    <ui:Instance template="MyCustomVisualElementTemplate" name="MyCustomVisualElementTemplate" />
+</ui:UXML>

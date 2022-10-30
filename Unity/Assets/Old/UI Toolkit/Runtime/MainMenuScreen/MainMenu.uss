@@ -1,0 +1,40 @@
+.button {
+    justify-content: center;
+    align-items: auto;
+    flex-direction: row;
+    -unity-text-align: middle-center;
+    transition-duration: 0.2s;
+    transition-delay: 0.1s;
+}
+
+.button:active {
+}
+
+.button:hover {
+    transform-origin: top;
+    scale: 2 1;
+    opacity: 1;
+    rotate: 1deg;
+}
+
+.screen {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    background-image: url('project://database/Assets/UI%20Toolkit/Runtime/bg.jpg?fileID=2800000&guid=c92439225e4bc3246a67d8105d3b0c42&type=3#bg');
+    -unity-background-scale-mode: scale-and-crop;
+}
+
+.menu-center {
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-buttons-list {
+    align-items: center;
+    justify-content: flex-start;
+    width: 50px;
+    min-width: 200px;
+}

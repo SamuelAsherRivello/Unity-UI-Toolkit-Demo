@@ -1,0 +1,28 @@
+.scroll-view {
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+.my-custom-visual-element {
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    background-color: rgba(0, 0, 0, 0.3);
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.button-list {
+    flex-grow: 1;
+}
