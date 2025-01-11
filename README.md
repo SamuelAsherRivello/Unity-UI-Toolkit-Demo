@@ -1,5 +1,5 @@
 
-# Unity Project Template
+# Unity UI Toolkit Demo
 
 This repo includes Project Structure Best Practices and C# Coding Standards for Unity.
 
